@@ -40,6 +40,7 @@ onMounted(() => {
 
 onBeforeUnmount(() => {
     //cleanup
+    pieChart.destory()
 })
 
 

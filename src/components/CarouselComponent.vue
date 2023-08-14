@@ -1,6 +1,6 @@
 <script setup>
 
-import { ref, reactive, onMounted, onBeforeUnmount, nextTick } from 'vue'
+import { ref, onMounted, onBeforeUnmount, nextTick } from 'vue'
 
 const items = ref([
     {
